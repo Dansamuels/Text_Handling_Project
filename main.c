@@ -27,21 +27,6 @@ int main(){
                 //increases the line count by one
                }
 
-        /*for (int i = 0; i< sizeof(key_word)/sizeof(key_word[0]); i++){
-
-            if(strcmp(filecontent,key_word[i])==0)
-                {
-                printf("\n%s\n", filecontent);
-                a+=2;
-                }
-                else
-                {
-                    printf("%s ",filecontent);
-                }
-               }*/
-
-
-
         if(strcmp(filecontent,key_word[0])==0||strcmp(filecontent,key_word[1])==0 || strcmp(filecontent,key_word[2])==0||
                strcmp(filecontent,key_word[3])==0 || strcmp(filecontent,key_word[4])==0 || strcmp(filecontent,key_word[5])==0){
                //checks two strings character by character
